@@ -1,0 +1,6 @@
+opencv-python
+ultralytics
+deep_sort_realtime
+PyYAML
+streamlit  # or gradio
+motmetrics

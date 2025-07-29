@@ -1,0 +1,7 @@
+# data/config.yaml
+path: data/MOT_YOLO
+train: images/train
+val: images/val
+
+names:
+  0: person

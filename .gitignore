@@ -1,0 +1,43 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+*.env
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# Model weights
+*.pt
+
+# Video output files
+*.mp4
+*.avi
+
+# Output files
+outputs/
+runs/
+
+# Training/evaluation artifacts
+*.log
+*.ckpt
+*.onnx
+
+# Temporary or debug files
+debug_output.*
+output_*.*
+track\ custom_video_track/
+
+# MOT dataset (can be large or preprocessed)
+data/MOT_YOLO/
+data/MOT/
