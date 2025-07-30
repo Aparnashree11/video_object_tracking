@@ -5,7 +5,7 @@ This project implements a **real-time video object tracking system** using [YOLO
 ---
 
 ## 📂 Project Structure
-
+```bash
 video_object_tracking/
 ├── data/
 │ ├── MOT_YOLO/ # Preprocessed MOT dataset (images + labels)
@@ -24,7 +24,7 @@ video_object_tracking/
 ├── train.py # Train YOLOv8 on MOT dataset
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
@@ -63,7 +63,7 @@ wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt
 
 ## 🏋️ Train on MOT Dataset
 Ensure the dataset is structured like this:
-
+```bash
 data/MOT_YOLO/
 ├── images/
 │   ├── train/
@@ -72,7 +72,7 @@ data/MOT_YOLO/
 │   ├── train/
 │   └── test/
 └── config.yaml
-
+```
 To start training:
 
 ```bash
